@@ -7,11 +7,13 @@ import { AuthGuardService } from './common/guards/auth.guard';
 import { AuthService } from 'app/common/services/auth.service';
 import { RouterModule } from '@angular/router';
 import { appRoutes } from "app/app.routing";
+import { UnsecuredComponent } from './unsecured/unsecured.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SecuredComponent
+    SecuredComponent,
+    UnsecuredComponent
   ],
   imports: [
     BrowserModule,
