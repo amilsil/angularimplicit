@@ -6,3 +6,5 @@
 /Users/amilkumarasinghe/workspace/angularimplicit/server/obj/Debug/netcoreapp1.1/IdentityServer.AssemblyInfo.cs
 /Users/amilkumarasinghe/workspace/angularimplicit/server/obj/Debug/netcoreapp1.1/IdentityServer.dll
 /Users/amilkumarasinghe/workspace/angularimplicit/server/obj/Debug/netcoreapp1.1/IdentityServer.pdb
+/Users/amilkumarasinghe/workspace/angularimplicit/server/obj/Debug/netcoreapp1.1/IdentityServer.csproj.CoreCompileInputs.cache
+/Users/amilkumarasinghe/workspace/angularimplicit/server/obj/Debug/netcoreapp1.1/IdentityServer.AssemblyInfoInputs.cache

@@ -1,0 +1,10 @@
+/Users/amilkumarasinghe/workspace/angularimplicit/server/bin/Debug/netcoreapp2.0/IdentityServer.deps.json
+/Users/amilkumarasinghe/workspace/angularimplicit/server/bin/Debug/netcoreapp2.0/IdentityServer.runtimeconfig.json
+/Users/amilkumarasinghe/workspace/angularimplicit/server/bin/Debug/netcoreapp2.0/IdentityServer.runtimeconfig.dev.json
+/Users/amilkumarasinghe/workspace/angularimplicit/server/bin/Debug/netcoreapp2.0/IdentityServer.dll
+/Users/amilkumarasinghe/workspace/angularimplicit/server/bin/Debug/netcoreapp2.0/IdentityServer.pdb
+/Users/amilkumarasinghe/workspace/angularimplicit/server/obj/Debug/netcoreapp2.0/IdentityServer.csproj.CoreCompileInputs.cache
+/Users/amilkumarasinghe/workspace/angularimplicit/server/obj/Debug/netcoreapp2.0/IdentityServer.AssemblyInfoInputs.cache
+/Users/amilkumarasinghe/workspace/angularimplicit/server/obj/Debug/netcoreapp2.0/IdentityServer.AssemblyInfo.cs
+/Users/amilkumarasinghe/workspace/angularimplicit/server/obj/Debug/netcoreapp2.0/IdentityServer.dll
+/Users/amilkumarasinghe/workspace/angularimplicit/server/obj/Debug/netcoreapp2.0/IdentityServer.pdb

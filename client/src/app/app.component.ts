@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { AuthService } from './common/services/auth.service';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,23 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  loggedIn: Boolean;
+
+  constructor(private authService: AuthService) {
+    this.authService.isLoggedInObs()
+      .subscribe(flag => {
+        this.loggedIn = flag;
+        if (!flag) {
+          this.authService.startSigninMainWindow();
+        }
+      });
+  }
+
+  login() {
+    this.authService.startSigninMainWindow();
+  }
+
+  logout() {
+    this.authService.startSignoutMainWindow();
+  }
 }

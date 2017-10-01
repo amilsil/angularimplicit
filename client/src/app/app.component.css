@@ -1,0 +1,13 @@
+ul {
+    list-style: none;
+}
+li {
+    float: left;
+    color: #0000ff;
+}
+a {
+    cursor: pointer;
+}
+a:hover {
+    text-decoration: underline;
+}

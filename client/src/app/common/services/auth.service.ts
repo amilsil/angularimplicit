@@ -7,8 +7,8 @@ import { UserManager, User, Log } from 'oidc-client';
 const settings: any = {
   authority: 'http://localhost:5000',
   client_id: 'mvc',
-  redirect_uri: 'http://localhost:4200/auth.html',
-  post_logout_redirect_uri: 'http://localhost:4200/',
+  redirect_uri: 'http://localhost:4200/signin-callback.html',
+  post_logout_redirect_uri: 'http://localhost:4200',
   response_type: 'id_token token',
   scope: 'openid profile api1',
 

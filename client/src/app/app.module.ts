@@ -8,6 +8,7 @@ import { AuthService } from 'app/common/services/auth.service';
 import { RouterModule } from '@angular/router';
 import { appRoutes } from "app/app.routing";
 import { UnsecuredComponent } from './unsecured/unsecured.component';
+import { HttpModule } from "@angular/http";
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { UnsecuredComponent } from './unsecured/unsecured.component';
   ],
   imports: [
     BrowserModule,
+    HttpModule,
     RouterModule.forRoot(appRoutes),
   ],
   providers: [

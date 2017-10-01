@@ -1,2 +1,6 @@
-
+<ul>
+    <li *ngIf="!loggedIn" ><a (click)="login()">Login</a></li>
+    <li *ngIf="loggedIn"><a (click)="logout()">Logout</a></li>
+</ul>
+<div style="clear:both"></div>
 <router-outlet></router-outlet>

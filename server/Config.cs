@@ -68,7 +68,7 @@ namespace QuickstartIdentityServer
                     AllowedGrantTypes = GrantTypes.Implicit,
 
                     RedirectUris = {
-                        "http://localhost:4200/auth.html",
+                        "http://localhost:4200/signin-callback.html",
                         "http://localhost:4200/",
                         "http://localhost:4200/silent-renew.html",
                         "http://localhost:4200/user-manager-sample.html",
